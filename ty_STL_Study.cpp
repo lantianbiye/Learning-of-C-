@@ -8,11 +8,6 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	char  a[10];
-	char* sz = new char[10];
-	cout << "a[10] size: " << sizeof(a) << endl;
-	cout << "sz new char[10] size: " << sizeof(sz) << endl;
-
 	string_demo::initialize();
 	string_demo::ToCString();
 	string_demo::strUpdate();
